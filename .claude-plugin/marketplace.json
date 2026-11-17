@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cv-apply-agent",
+  "description": "Zero-fabrication Story-Memory CV tailoring and safe multi-tab browser pre-fill plugin for Claude Code and Antigravity CLI.",
+  "owner": {
+    "name": "nhien36hk",
+    "url": "https://github.com/nhien36hk"
+  },
+  "plugins": [
+    {
+      "name": "cv-auto-apply",
+      "description": "End-to-end Story-Memory CV tailoring, 4 deterministic quality gates, and safe --headed browser pre-fill.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

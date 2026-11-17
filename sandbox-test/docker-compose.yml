@@ -1,0 +1,14 @@
+services:
+  agy-sandbox:
+    build: .
+    container_name: cv_apply_skill_sandbox
+    shm_size: "1gb"
+    volumes:
+      - /home/nhien36hk/.local/bin/agy:/usr/local/bin/agy:ro
+      - /home/nhien36hk/Documents/PersonalProject/cv-apply-agent/skills/cv-auto-apply:/home/tester/skill:ro
+      - /home/nhien36hk/.gemini/antigravity-cli/jetski_state.pbtxt:/mnt/agy-seed/cli/jetski_state.pbtxt:ro
+      - /home/nhien36hk/.gemini/antigravity-cli/settings.json:/mnt/agy-seed/cli/settings.json:ro
+      - /home/nhien36hk/.gemini/antigravity-cli/installation_id:/mnt/agy-seed/cli/installation_id:ro
+      - /home/nhien36hk/.config/antigravity:/mnt/agy-seed/config:ro
+    environment:
+      - DISPLAY=:99

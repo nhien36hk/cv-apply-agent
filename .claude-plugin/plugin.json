@@ -1,0 +1,11 @@
+{
+  "name": "cv-auto-apply",
+  "version": "1.0.0",
+  "description": "Zero-fabrication AI job discovery, Story-Memory CV tailoring, 4-gate ATS verification, and safe multi-tab browser pre-fill.",
+  "author": {
+    "name": "nhien36hk",
+    "url": "https://github.com/nhien36hk"
+  },
+  "repository": "https://github.com/nhien36hk/cv-apply-agent",
+  "skills": "./skills"
+}
